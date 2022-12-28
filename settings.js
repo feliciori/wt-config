@@ -53,14 +53,16 @@
     "defaultProfile": "{2c4de342-38b7-51cf-b940-2309a097f518}",
     "profiles": 
     {
-        "defaults": {
-            "font":  {
-                "face":"Cascadia Code PL"
-            },
+        "defaults": 
+        {
             "backgroundImage": "C:\\Users\\felix\\OneDrive\\Pictures\\Handy\\Handy Bilder\\totentanz.jpg",
             "backgroundImageAlignment": "bottomRight",
             "backgroundImageOpacity": 0.10000000000000001,
-            "backgroundImageStretchMode": "none"
+            "backgroundImageStretchMode": "none",
+            "font": 
+            {
+                "face": "CaskaydiaCove NF"
+            }
         },
         "list": 
         [
@@ -79,7 +81,7 @@
                 "hidden": false,
                 "name": "Ubuntu",
                 "source": "Windows.Terminal.Wsl",
-                "startingDirectory": "~/repos"   
+                "startingDirectory": "~/repos"
             },
             {
                 "guid": "{b453ae62-4e3d-5e58-b989-0a998ec441b8}",
@@ -310,5 +312,5 @@
         }
     ],
     "startOnUserLogin": true,
-    "windowingBehavior": "useAnyExisting",
+    "windowingBehavior": "useAnyExisting"
 }
